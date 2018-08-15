@@ -21,6 +21,7 @@ body{
     /* margin-top:80px; */
     /* padding-top:80px; */
     position:relative;
+    position:relative;
     /* top:50px; */
     width:75%;
     /* height: 60%; */
@@ -293,7 +294,7 @@ body{
 
 #start-quote, #end-quote {
     display:inline-block;
-    width: 15%;
+    width: 10%;
 }
 
 #start-quote img, #end-quote img {
@@ -367,5 +368,5 @@ body{
     font-size: 17px;
 }
 #learn{
-    max-height: 1200px;
+    max-height: 1000px;
 }
