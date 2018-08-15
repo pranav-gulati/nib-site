@@ -1,3 +1,6 @@
+body{
+    font-family: Avenir;
+}
 #particles-js {
     position: absolute;
     width:100%;
@@ -10,7 +13,9 @@
     z-index:-100;
 }
 
-
+#home-about{
+    background-color:#3380C4;
+}
 #title-container {
     /* background-color:pink; */
     /* margin-top:80px; */
@@ -112,29 +117,28 @@
 
 
 #home-about-words {
-    width: 70%;
+    width: 100%;
     left:50%;
     position:relative;
     transform:translateX(-50%);
-    padding-top: 100px;
+    padding-top: 40px;
     display:inline-block;
 }
 
 .home-box {
-    margin-left:6%;
-    margin-right: 1.5%;
-    width: 42%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left:7%;
+    margin-right: 0%;
+    width: 40%;
     text-align:center;
     box-sizing: border-box;
-    /* box-shadow: none; */
-    /* border: none; */
-    /* font: 2em/1 sans-serif; */
-    padding: 12px 12px;
+    padding: 20px 20px;
     /* letter-spacing: 5px; */
     /* color: white; */
-    border: solid 2px transparent;
-    border-image: linear-gradient(45deg, #3380C4, #4AB9FB);
-    border-image-slice: 1;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
     -webkit-background-clip: text;
     background-clip: text;
     /* text-fill-color: transparent; */
@@ -142,20 +146,21 @@
     vertical-align:middle;
     min-height: 300px;
     font-family:Avenir;
-
+    color: white;
    
 }
 
 .home-header {
     color: #1B67B1;
     font-family:Avenir;
-    font-size:18px;
+    font-size:22px;
     font-weight:800;
     margin-bottom: 10px;
 }
 
 #stats {
     position:relative;
+    min-height: 300px;
 }
 
 .banner {
@@ -181,8 +186,8 @@
     transform:translateX(-50%);
     border-style: solid;
     border-width:5px;
-    border-color: white;
-    height: 150px;
+    border-color: gray;
+    min-height: 150px;
     font-family: Avenir;
 
 }
@@ -356,4 +361,12 @@
 #quote{
     font-family:Avenir;
 }
-
+#about-nib{
+    font-size: 17px;
+}
+#about-ni{
+    font-size: 17px;
+}
+#learn{
+    max-height: 1200px;
+}
