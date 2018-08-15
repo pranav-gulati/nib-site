@@ -154,13 +154,12 @@ body{
     color: #1B67B1;
     font-family:Avenir;
     font-size:22px;
-    font-weight:800;
     margin-bottom: 10px;
 }
 
 #stats {
     position:relative;
-    min-height: 300px;
+    min-height: 150px;
 }
 
 .banner {
@@ -180,13 +179,13 @@ body{
 
 #stat-banner {
     position:absolute;
-    top:120px;
+    top:50px;
     width: 80%;
     left: 50%;
     transform:translateX(-50%);
-    border-style: solid;
+    /*border-style: solid;
     border-width:5px;
-    border-color: gray;
+    border-color: gray;*/
     min-height: 150px;
     font-family: Avenir;
 
