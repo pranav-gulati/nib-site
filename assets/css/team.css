@@ -27,6 +27,17 @@ body {
     /* display:none; */
 }
 
+.profile-exec {
+    display: inline-block;
+    width:18.5%;
+    height:20.5%;
+    margin-left:0.5%;
+    margin-right:0.5%;
+    margin-bottom:2%;
+    position:relative;
+    /* display:none; */
+}
+
 
 .team-images img {
     /* height: 200px; */
@@ -62,6 +73,9 @@ body {
     opacity: 1;
   }
 
+  .profile-exec:hover .overlay{
+    opacity: 1;
+  }
   .name {
     position: absolute;
     text-align: center;
@@ -81,6 +95,11 @@ body {
   }
   
   .profile:hover .name{
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+  }
+  .profile-exec:hover .name{
     top: 50%;
     left: 50%;
     opacity: 1;
