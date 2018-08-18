@@ -283,6 +283,7 @@ body{
 
 #quote {
     /* width:100vw; */
+
     display:inline-block;
     /* margin-top: 40px; */
     width:105%;
@@ -294,12 +295,12 @@ body{
 
 #start-quote, #end-quote {
     display:inline-block;
-    width: 10%;
+    width: 9%;
 }
 
 #start-quote img, #end-quote img {
     object-fit: contain;
-    max-width:100%;
+    max-width:120%;
 }
 
 #end-quote {
@@ -368,5 +369,5 @@ body{
     font-size: 17px;
 }
 #learn{
-    max-height: 1000px;
+    max-height: 1080px;
 }
